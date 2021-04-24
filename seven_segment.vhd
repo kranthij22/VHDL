@@ -7,10 +7,10 @@ port(
 		clk 		 : in std_logic;			-- clock 50 MHz
 		reset		 : in std_logic;			-- reset key_0 button on the FPGA board
 		key_1		 : in std_logic;			-- Push button key_1 on the FPGA board
-		HEX0		 : out std_logic_vector(6 downto 0); -- seven_segment fisplay of the Digit 1
-		HEX1		 : out std_logic_vector(6 downto 0); -- seven_segment fisplay of the Digit 2	
-		HEX2		 : out std_logic_vector(6 downto 0); -- seven_segment fisplay of the Digit 3	
-		HEX3		 : out std_logic_vector(6 downto 0)	 -- seven_segment fisplay of the Digit 4
+		HEX0		 : out std_logic_vector(6 downto 0); -- seven_segment display of the Digit 1
+		HEX1		 : out std_logic_vector(6 downto 0); -- seven_segment display of the Digit 2	
+		HEX2		 : out std_logic_vector(6 downto 0); -- seven_segment display of the Digit 3	
+		HEX3		 : out std_logic_vector(6 downto 0)	 -- seven_segment display of the Digit 4
 
 );
 end seven_segment;
